@@ -1,0 +1,83 @@
+body {
+    font-family: Roboto, sans-serif;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#nome-site{
+    font-size: 2.5rem;
+}
+
+p,
+h2,
+h3,
+li{
+    color:  #E5E5E5;
+}
+
+.navbar {
+    background-color: #2472C6;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #E5E5E5;
+    color: #2472C6;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #E5E5E5;
+}
+
+.navbar-toggler {
+    background-color: #E5E5E5;
+}
+
+.section-title {
+    font-family: Bebas Neue;
+}
+
+
+#sobre-a-academia, #cardapio {
+    background-color: #000000;
+}
+
+#fale-conosco, #eventos{
+    background-color: #020202;
+}
+
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-colored{
+    color: #2472C6;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #2472C6;
+    color: #E5E5E5;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #2472C6;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}

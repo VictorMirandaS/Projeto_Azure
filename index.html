@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZURE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title" id="nome-site">AZURE</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-academia" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Academia
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossas atividades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-academia">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/acad1.jpg" alt="foto1" class="d-block w-100 carousel-img">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/acad2.jpg" alt="foto2" class="d-block w-100 carousel-img">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/acad3.jpg" alt="foto3" class="d-block w-100 carousel-img">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/eventos/academia.webp" class="d-block w-100 rounded" alt="foto do restaurante" >
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a Azure</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur mollitia alias cum qui. Quidem aspernatur sunt iusto minima possimus, debitis voluptatem enim tenetur est consequuntur saepe, rerum repudiandae, illo vel?
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae laborum magnam perferendis. Minima quam, non nemo id dolorum consequuntur provident, ipsam est repudiandae facilis libero, corporis at ab expedita cupiditate.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as necessidades</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/fisioterapia.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-activity"></i>
+                            Fisioterapia
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo iusto aliquam eaque eveniet officia voluptates obcaecati facere nihil facilis, asperiores totam unde saepe voluptate! Similique neque maiores odit incidunt dolorem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo iusto aliquam eaque eveniet officia voluptates obcaecati facere nihil facilis, asperiores totam unde saepe voluptate! Similique neque maiores odit incidunt dolorem?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/fisiculturismo.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-arms-up"></i>
+                            fisiculturismo
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo iusto aliquam eaque eveniet officia voluptates obcaecati facere nihil facilis, asperiores totam unde saepe voluptate! Similique neque maiores odit incidunt dolorem?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo iusto aliquam eaque eveniet officia voluptates obcaecati facere nihil facilis, asperiores totam unde saepe voluptate! Similique neque maiores odit incidunt dolorem?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/saude.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-lungs-fill"></i>
+                            Saude
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo iusto aliquam eaque eveniet officia voluptates obcaecati facere nihil facilis, asperiores totam unde saepe voluptate! Similique neque maiores odit incidunt dolorem?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo iusto aliquam eaque eveniet officia voluptates obcaecati facere nihil facilis, asperiores totam unde saepe voluptate! Similique neque maiores odit incidunt dolorem?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center md-5">Nossas <span class="text-colored">Atividades</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Musculação" class=" fw-bold text-start nav-link text-colored active">Musculação</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Aeróbico" class=" fw-bold text-start nav-link text-colored ">Aeróbico</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Yoga" class=" fw-bold text-start nav-link text-colored ">Yoga</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Natação" class=" fw-bold text-start nav-link text-colored ">Natação</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Esportes" class=" fw-bold text-start nav-link text-colored ">Esportes</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="Musculação">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/musc4.jpg" alt="Coca-Cola"/>
+                                    <H5 class="text-colored fw-bold mt-2">Musculação</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/musc1.jpg" alt="Musculação"/>
+                                    <H5 class="text-colored fw-bold mt-2">Musculação</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/musc2.jpg" alt="Musculação"/>
+                                    <H5 class="text-colored fw-bold mt-2">Musculação</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/musc3.jpg" alt="Musculação"/>
+                                    <H5 class="text-colored fw-bold mt-2">Musculação</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane" id="Aeróbico">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/card1 (1).jpg" alt="Aeróbico"/>
+                                    <H5 class="text-colored fw-bold mt-2">Aeróbico</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/card1 (2).jpg" alt="Aeróbico"/>
+                                    <H5 class="text-colored fw-bold mt-2">Aeróbico</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/card1 (3).jpg" alt="Aeróbico"/>
+                                    <H5 class="text-colored fw-bold mt-2">Aeróbico</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/card1 (4).jpg" alt="Aeróbico"/>
+                                    <H5 class="text-colored fw-bold mt-2">Aeróbico</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="Yoga">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/yoga (1).jpg" alt="Yoga"/>
+                                    <H5 class="text-colored fw-bold mt-2">Yoga</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/yoga (2).jpg" alt="Yoga"/>
+                                    <H5 class="text-colored fw-bold mt-2">Yoga</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/yoga (3).jpg" alt="Yoga"/>
+                                    <H5 class="text-colored fw-bold mt-2">Yoga</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/yoga (4).jpg" alt="Yoga"/>
+                                    <H5 class="text-colored fw-bold mt-2">Yoga</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="Natação">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/nat (1).jpg" alt="Natação"/>
+                                    <H5 class="text-colored fw-bold mt-2">Natação</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/nat (2).jpg" alt="Natação"/>
+                                    <H5 class="text-colored fw-bold mt-2">Natação</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/nat (3).jpg" alt="Natação"/>
+                                    <H5 class="text-colored fw-bold mt-2">Natação</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/nat (4).jpg" alt="Natação"/>
+                                    <H5 class="text-colored fw-bold mt-2">Natação</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="Esportes">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/espn (1).jpg" alt="Esportes"/>
+                                    <H5 class="text-colored fw-bold mt-2">Esportes</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/espn (2).jpg" alt="Esportes"/>
+                                    <H5 class="text-colored fw-bold mt-2">Esportes</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/espn (3).jpg" alt="Esportes"/>
+                                    <H5 class="text-colored fw-bold mt-2">Esportes</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cardapio/atividades/espn (4).jpg" alt="Esportes"/>
+                                    <H5 class="text-colored fw-bold mt-2">Esportes</H5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua das sirigaitas n:777, bairro das laranjas - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
